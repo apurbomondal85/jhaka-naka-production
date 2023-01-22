@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jhaka naka production</title>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&display=swap');
+    </style>
+      <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    'sm': '560px',
+                    'md': '768px',
+                    'lg': '1024px',
+                    },
+                extend: {
+                colors: {
+                    clifford: '#da373d',
+                    dark: '#131313',
+                    primary: '#FECC02',
+                    secondary: '#4E4E4E',
+                },
+                fontFamily: {
+                bebas: ['Bebas Neue' ,'cursive'],
+                montserrat: ['Montserrat', 'sans-serif'],
+                }
+              }
+            }
+        }
+    </script>
+</head>
+<body>
+    <header class="">
+        <nav class="w-full bg-white py-5 fixed top-0 left-0 right-0 z-50">
+            <div class="container max-w-7xl mx-auto px-12 md:flex justify-between items-center">
+                <div>
+                    <h2 class="font-bebas font-bold text-dark text-3xl">Jhaka Naka Production</h2>
+                </div>
+                <ul class="list-none flex items-center gap-5">
+                    <li><a href="" class="text-dark font-bebas text-[18px] transition-all hover:text-primary">About US</a></li>
+                    <li><a href="" class="text-dark font-bebas text-[18px] transition-all hover:text-primary">our Movies</a></li>
+                    <li><a href="" class="text-dark font-bebas text-[18px] transition-all hover:text-primary">Services</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="w-full bg-[url('images/banner.jpg')] bg-no-repeat bg-cover bg-center h-[800px]">
+            <div class="h-full w-full max-w-7xl mx-auto px-12  flex justify-start items-center">
+                <div class="w-1/2">
+                    <h5 class="text-white text-xl font-bebas">Movie production studio</h5>
+                <h1 class="text-white text-7xl font-bold">Films MAde to <br> <span class="text-primary">Perfection</span></h1>
+                <p class="text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut  elit tellus,luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <button class="text-[19px] text-white p-3 border-2 border-white rounded-md mt-8 transition-all hover:text-primary hover:border-primary">Discover More</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- about us -->
+    <section class="py-20">
+        <div class="container max-w-7xl lg px-6:px-16 py-8 mx-auto lg:border-2 border-dark">
+            <div class="lg:flex text-center lg:text-left items-center gap-12">
+                <div class="h-[500px] mb-12 lg:w-1/2 bg-[url('images/camera-man.jpg')] bg-cover bg-center flex items-end justify-center">
+                    <h1 class="text-center py-3 text-dark text-3xl font-bebas bg-white w-3/4 mx-auto rounded-md -mb-6 shadow-lg">23 YEARS of EXPERIENCE</h1>
+                </div>
+            <div class="lg:w-1/2">
+                <h5 class="font-bebas text-dark">ABOUT US</h5>
+                <h2 class="font-bold text-dark text-6xl my-4">FIlming Experience Just Got better</h2>
+                <p class="text-secondary mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto atque dicta unde facilis sunt commodi, rerum consectetur libero explicabo similique, numquam fugiat aut perferendis. Architecto laborum ab eveniet quaerat dolor.</p>
+                <button class="text-[19px] text-dark p-3 border-2 border-dark rounded-md mt-8 transition-all hover:text-primary hover:border-primary">Discover More</button>
+            </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 px-6 lg:grid-cols-3 gap-16 mt-16">
+                <div>
+                    <div class="w-full h-1 bg-dark"></div>
+                    <div class="">
+                        <h3 class="text-dark text-5xl font-bebas font-bold my-5">OUR VISIOn</h3>
+                        <p class="text-secondary font-montserrat">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="w-full h-1 bg-dark"></div>
+                    <div class="">
+                        <h3 class="text-dark text-5xl font-bebas font-bold my-5">OUR Mission</h3>
+                        <p class="text-secondary font-montserrat">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="w-full h-1 bg-dark"></div>
+                    <div class="">
+                        <h3 class="text-dark text-5xl font-bebas font-bold my-5">OUR Motto</h3>
+                        <p class="text-secondary font-montserrat">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- movie-collection -->
+    <section class="py-20 bg-secondary">
+        <div class="container max-w-7xl px-16 mx-auto">
+            <h5 class="text-white font-bebas">OUR MOVIES</h5>
+            <div class="md:flex justify-between text-center md:text-left items-center mb-12">
+                <h2 class="text-white text-6xl font-bebas font-bold">Movie collection</h2>
+                <button class="text-[19px] text-white p-3 border-2 border-white rounded-md transition-all hover:text-primary hover:border-primary">See More Movies</button>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 items-center gap-12">
+                <div class="p-5 border-2 border-white cursor-pointer group relative">
+                    <div class="w-full h-full bg-black absolute left-0 top-0 opacity-[.6] hidden transition-all group-hover:block"></div>
+                    <div class="h-[500px] md:h-[450px] lg:h-[350px] bg-slate-500 bg-[url('images/tenet.jpg')] bg-cover bg-center flex justify-center items-center">
+                        <h2 class="text-white text-3xl font-bold capitalize z-10 hidden transition-all group-hover:block">hello</h2>
+                    </div>
+                </div>
+                <div class="p-5 border-2 border-white cursor-pointer group relative">
+                    <div class="w-full h-full bg-black absolute left-0 top-0 opacity-[.6] hidden transition-all group-hover:block"></div>
+                    <div class="h-[500px] md:h-[450px] lg:h-[350px] bg-slate-500 bg-[url('images/interstellar.jpg')] bg-cover bg-center flex justify-center items-center">
+                        <h2 class="text-white text-3xl font-bold capitalize z-10 hidden transition-all group-hover:block">hello</h2>
+                    </div>
+                </div>
+                <div class="p-5 border-2 border-white cursor-pointer group relative">
+                    <div class="w-full h-full bg-black absolute left-0 top-0 opacity-[.6] hidden transition-all group-hover:block"></div>
+                    <div class="h-[500px] md:h-[450px] lg:h-[350px] bg-slate-500 bg-[url('images/inception.jpg')] bg-cover bg-center flex justify-center items-center">
+                        <h2 class="text-white text-3xl font-bold capitalize z-10 hidden transition-all group-hover:block">hello</h2>
+                    </div>
+                </div>
+                <div class="p-5 border-2 border-white cursor-pointer group relative">
+                    <div class="w-full h-full bg-black absolute left-0 top-0 opacity-[.6] hidden transition-all group-hover:block"></div>
+                    <div class="h-[500px] md:h-[450px] lg:h-[350px] bg-slate-500 bg-[url('images/fractured.jpg')] bg-cover bg-center flex justify-center items-center">
+                        <h2 class="text-white text-3xl font-bold capitalize z-10 hidden transition-all group-hover:block">hello</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- offer -->
+    <section class="py-20">
+        <div class="container max-w-7xl mx-auto px-16">
+            <h5 class="text-dark text-center font-semibold">services</h5>
+            <h2 class="font-bold text-dark text-5xl font-bebas text-center">what we offer</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mt-16">
+                <!-- --card--- -->
+                <div class="text-center border-2 border-dark p-5">
+                    <div>
+                        <img src="images/icons/camera.png" class="mx-auto w-1/3" alt="">
+                    </div>
+                    <h4 class="text-xl font-semibold my-4 font-bebas text-dark">movies director</h4>
+                    <p class="text-secondary text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <!-- --card--- -->
+                <div class="text-center border-2 border-dark p-5">
+                    <div>
+                        <img src="images/icons/3d-glasss.png" class="mx-auto w-1/3" alt="">
+                    </div>
+                    <h4 class="text-xl font-semibold my-4 font-bebas text-dark">3D MOVIES</h4>
+                    <p class="text-secondary text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <!-- --card--- -->
+                <div class="text-center border-2 border-dark p-5">
+                    <div>
+                        <img src="images/icons/director-chair.png" class="mx-auto w-1/3" alt="">
+                    </div>
+                    <h4 class="text-xl font-semibold my-4 font-bebas text-dark">Film maker</h4>
+                    <p class="text-secondary text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <!-- --card--- -->
+                <div class="text-center border-2 border-dark p-5">
+                    <div>
+                        <img src="images/icons/film.png" class="mx-auto w-1/3" alt="">
+                    </div>
+                    <h4 class="text-xl font-semibold my-4 font-bebas text-dark">Studio Production</h4>
+                    <p class="text-secondary text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <!-- --card--- -->
+                <div class="text-center border-2 border-dark p-5">
+                    <div>
+                        <img src="images/icons/theater.png" class="mx-auto w-1/3" alt="">
+                    </div>
+                    <h4 class="text-xl font-semibold my-4 font-bebas text-dark">Drama Movies</h4>
+                    <p class="text-secondary text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <!-- --card--- -->
+                <div class="text-center border-2 border-dark p-5">
+                    <div>
+                        <img src="images/icons/rim.png" class="mx-auto w-1/3" alt="">
+                    </div>
+                    <h4 class="text-xl font-semibold my-4 font-bebas text-dark">Rolling Production</h4>
+                    <p class="text-secondary text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <!-- --card--- -->
+                <div class="text-center border-2 border-dark p-5">
+                    <div>
+                        <img src="images/icons/cut-board.png" class="mx-auto w-1/3" alt="">
+                    </div>
+                    <h4 class="text-xl font-semibold my-4 font-bebas text-dark">Movie Production</h4>
+                    <p class="text-secondary text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <!-- --card--- -->
+                <div class="text-center border-2 border-dark p-5">
+                    <div>
+                        <img src="images/icons/count-down.png" class="mx-auto w-1/3" alt="">
+                    </div>
+                    <h4 class="text-xl font-semibold my-4 font-bebas text-dark">actor action</h4>
+                    <p class="text-secondary text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer  -->
+    <footer class="py-20 bg-dark">
+        <div class="container max-w-7xl text-center mx-auto px-16">
+            <h2 class="font-bebas text-white text-5xl mb-4 font-bold">jhaka naka production</h2>
+            <h5 class="text-white font-semibold font-bebas mb-5 uppercase">next level experience</h5>
+            <p class="text-white">Feugiat nibh litora semper proin nullam facilisi volutpat ex ullamcorper.</p>
+            <p class="text-white mt-20">Copyright © 2021 Jhaka Naka Production, All rights reserved. Present by Mir Hussain</p>
+        </div>
+    </footer>
+
+</body>
+</html>
